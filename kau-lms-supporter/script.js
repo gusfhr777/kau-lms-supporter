@@ -1,5 +1,5 @@
 jwplayer().off('time')
-jwplayer().onTime(function (callback) {
+jwplayer().on('time', function (callback) {
     seek_position.current = callback.position;
 });
 
@@ -8,7 +8,8 @@ const url = new URL(window.location.href)
 const lecId = url.searchParams.get("id")
 
 function videoSpeedClick(){
-    jwplayer_speed(document.querySelector('#playBackRate').value)
+    // jwplayer_speed(document.querySelector('#playBackRate').value) # not working since 2025-09-10.
+    document.querySelector('video').playbackRate = document.querySelector('#playBackRate').value
 }
 
 function tabCloseClick(){

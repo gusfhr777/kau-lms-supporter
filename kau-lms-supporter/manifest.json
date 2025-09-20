@@ -1,4 +1,5 @@
 {
+   "name": "KAU-LMS Supporter",
    "content_scripts": [ {
       "css": [ "style.css" ],
       "js": [ "script.js" ],
@@ -6,7 +7,7 @@
       "run_at": "document_idle",
       "world": "MAIN"
    } ],
-   "description": "항공대용 lms 플러그인",
+   "description": "항공대용 lms 보조 프로그램 VER 2025-09-20",
    "icons": {
       "128": "/images/icons8-eagle-128.png",
       "16": "/images/icons8-eagle-16.png",
@@ -15,7 +16,6 @@
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmJ7OMdzLJ3bdAaMl2gLNX81yo1zQadfU7lzkvRMTZZnqWwDjmumA/VzlYSlhnZItx5qOLO30PDU2YZi48QZZA7OQYkNl/WuUeHTj+x7NZf1nagtR9bwOrTvZMckWO98pJ6E1YaFm4ex2DWeFoYnlqKl/yLWBzJ0G0xjGSKAA/ITdGo6yjROrsG2HZn9nXepbXocsdDm4/VxDWCrQ1KcPUDvlTZoEyJUFLwggNQCwAP9FxFHKAfb8Al9C7/Qg5LmNtlrJzktFgDieDkodxyAm/sXKUbg1MRumHLFcJIH9GYIzA6cOU1t0+fnMD3da0s1dS3Ber1wWas1SbueVjkCBYwIDAQAB",
    "manifest_version": 3,
-   "name": "KAU-LMS Supporter",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.0.3"
+   "version": "1.0.4"
 }
